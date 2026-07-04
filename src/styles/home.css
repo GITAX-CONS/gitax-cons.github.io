@@ -232,8 +232,10 @@ body {
 
 @media (max-width: 768px) {
   .navbar-logo {
-    width: 180px !important;
+    width: 280px !important;
     height: auto !important;
+    transform: none !important;
+    max-width: none !important;
   }
 }
 @media (min-width: 769px) {
