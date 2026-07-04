@@ -144,9 +144,25 @@ ${formData.message}`;
               </div>
             </div>
           </div>
+                  </div>
         </div>
-      </div>
-    </section>
+
+        <div className="mt-4">
+          <div className="card shadow-sm border-0 overflow-hidden">
+            <iframe
+              title="GI-TAX Office Location"
+              src="https://www.google.com/maps?q=14th%20Mile%20Melood%20Adoor%20Kerala&output=embed"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+          </section>
   );
 }
 
