@@ -20,11 +20,12 @@ const resources = [
   pdf: "/downloads/GI-TAX_GST_Registration_Document_Checklist.pdf",
 },
   {
-    icon: <FaBuilding size={40} className="text-success" />,
-    title: "Company Registration Checklist",
-    description:
-      "Understand the basic documents needed to register a company.",
-  },
+  icon: <FaBuilding size={40} className="text-success" />,
+  title: "Company Registration Checklist",
+  description:
+    "Understand the basic documents needed to register a company.",
+  pdf: "/downloads/GI-TAX_Company_Registration_Document_Checklist.pdf",
+},
 ];
 
 function Resources() {
