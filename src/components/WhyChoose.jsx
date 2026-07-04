@@ -49,9 +49,12 @@ function WhyChoose() {
                 Income Tax, GST, Accounting and Compliance Services.
               </p>
 
-              <button className="btn btn-light mt-3">
-                Call Now
-              </button>
+              <a
+  href="tel:+919074018257"
+  className="btn btn-light"
+>
+  Call Now
+</a>
             </div>
           </div>
 
