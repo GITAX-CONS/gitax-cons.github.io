@@ -74,10 +74,10 @@ function Footer() {
            <p>
   <FaEnvelope className="me-2" />
   <a
-    href="mailto:midhilsuresh@gmail.com"
+    href="mailto:gitaxconsultants@gmail.com"
     className="text-white text-decoration-none"
   >
-    midhilsuresh@gmail.com
+    gitaxconsultants@gmail.com
   </a>
 </p>
 
@@ -89,10 +89,14 @@ function Footer() {
 
             <div className="mt-4">
 
-              <FaWhatsapp
-                size={30}
-                className="me-3"
-              />
+              <a
+  href="https://wa.me/919074018257?text=Hello%20GI-TAX%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+  target="_blank"
+  rel="noreferrer"
+  className="text-white me-3"
+>
+  <FaWhatsapp size={30} />
+</a>
 
               <FaFacebook
                 size={30}

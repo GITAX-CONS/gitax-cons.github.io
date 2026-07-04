@@ -69,10 +69,10 @@ ${formData.message}`;
                 <p>
                  <FaEnvelope className="text-success me-2" />
 <a
-  href="mailto:midhilsuresh@gmail.com"
+  href="mailto:gitaxconsultants@gmail.com"
   className="text-decoration-none text-dark"
 >
-  midhilsuresh@gmail.com
+  gitaxconsultants@gmail.com
 </a>
                 </p>
 
