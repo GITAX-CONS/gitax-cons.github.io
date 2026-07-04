@@ -10,6 +10,7 @@ import TaxUpdates from "../components/TaxUpdates";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
+import BackToTop from "../components/BackToTop";
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
       <Contact />
       <Footer />
       <Whatsapp />
+      <BackToTop />
     </>
   );
 }
