@@ -54,6 +54,16 @@ function Services() {
               {service.icon}
               <h5 className="mt-3">{service.title}</h5>
               <p>{service.desc}</p>
+            <a
+              href={`https://wa.me/919074018257?text=${encodeURIComponent(
+             `Hello GI-TAX, I would like to enquire about ${service.title}.`
+              )}`}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-success mt-auto"
+             >
+              Enquire Now
+            </a>
             </div>
           </div>
         ))}
