@@ -83,9 +83,16 @@ ${formData.message}`;
                 </p>
 
                 <p>
-                  <FaMapMarkerAlt className="text-success me-2" />
-                  14th Mile, Melood P.O, Adoor
-                </p>
+  <FaMapMarkerAlt className="text-success me-2" />
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=14th+Mile+Melood+Adoor+Kerala"
+    target="_blank"
+    rel="noreferrer"
+    className="text-decoration-none text-dark"
+  >
+    14th Mile, Melood P.O, Adoor
+  </a>
+</p>
                 <hr />
 
 <h5 className="mt-4 mb-3">
