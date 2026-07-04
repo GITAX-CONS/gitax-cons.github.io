@@ -9,7 +9,7 @@ function Navbar() {
           <img
             src={logo}
             alt="GI-TAX"
-            height="55"
+            height="70"
             className="me-2"
           />
         </a>
@@ -28,27 +28,27 @@ function Navbar() {
           <ul className="navbar-nav mx-auto">
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Home</a>
+              <a className="nav-link active" href="#home">Home</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#about">About</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">Services</a>
+              <a className="nav-link" href="#services">Services</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">Resources</a>
+              <a className="nav-link" href="#resources">Resources</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">FAQ</a>
+              <a className="nav-link" href="#faq">FAQ</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
 
           </ul>
@@ -62,9 +62,12 @@ function Navbar() {
               📞 +91 9074018257
             </span>
 
-            <button className="btn btn-success px-4">
-              Get Consultation
-            </button>
+            <a
+  href="#contact"
+  className="btn btn-success"
+>
+  Get Consultation
+</a>
 
           </div>
 
