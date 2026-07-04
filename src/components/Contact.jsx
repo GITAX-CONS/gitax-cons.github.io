@@ -78,9 +78,16 @@ ${formData.message}`;
                 </p>
 
                 <p>
-                  <FaWhatsapp className="text-success me-2" />
-                  WhatsApp Available
-                </p>
+  <FaWhatsapp className="text-success me-2" />
+  <a
+    href="https://wa.me/919074018257?text=Hello%20GI-TAX%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+    target="_blank"
+    rel="noreferrer"
+    className="text-decoration-none text-dark"
+  >
+    WhatsApp Available
+  </a>
+</p>
 
                 <p>
   <FaMapMarkerAlt className="text-success me-2" />
