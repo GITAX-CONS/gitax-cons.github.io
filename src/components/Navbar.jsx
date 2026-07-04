@@ -54,12 +54,13 @@ function Navbar() {
 
           <div className="d-flex align-items-center">
 
-            <span
-              className="me-4 fw-semibold text-success"
-              style={{fontSize:"17px"}}
+            <a
+              href="tel:+919074018257"
+              className="me-4 fw-semibold text-success text-decoration-none"
+              style={{ fontSize: "17px" }}
             >
               📞 +91 9074018257
-            </span>
+          </a>
 
             <a
   href="#contact"

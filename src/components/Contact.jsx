@@ -58,12 +58,22 @@ ${formData.message}`;
 
                 <p>
                   <FaPhoneAlt className="text-success me-2" />
-                  +91 9074018257
+<a
+  href="tel:+919074018257"
+  className="text-decoration-none text-dark"
+>
+  +91 9074018257
+</a>
                 </p>
 
                 <p>
-                  <FaEnvelope className="text-success me-2" />
-                  midhilsuresh@gmail.com
+                 <FaEnvelope className="text-success me-2" />
+<a
+  href="mailto:midhilsuresh@gmail.com"
+  className="text-decoration-none text-dark"
+>
+  midhilsuresh@gmail.com
+</a>
                 </p>
 
                 <p>

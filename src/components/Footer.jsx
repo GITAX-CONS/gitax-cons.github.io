@@ -61,13 +61,25 @@ function Footer() {
 
             <h5>Contact</h5>
 
-            <p>
-              <FaPhoneAlt /> +91 9074018257
-            </p>
+           <p>
+  <FaPhoneAlt className="me-2" />
+  <a
+    href="tel:+919074018257"
+    className="text-white text-decoration-none"
+  >
+    +91 9074018257
+  </a>
+</p>
 
-            <p>
-              <FaEnvelope /> midhilsuresh@gmail.com
-            </p>
+           <p>
+  <FaEnvelope className="me-2" />
+  <a
+    href="mailto:midhilsuresh@gmail.com"
+    className="text-white text-decoration-none"
+  >
+    midhilsuresh@gmail.com
+  </a>
+</p>
 
             <p>
               <FaMapMarkerAlt />
