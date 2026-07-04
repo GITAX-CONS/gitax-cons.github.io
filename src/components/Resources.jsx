@@ -13,11 +13,12 @@ const resources = [
     pdf: "/downloads/GI-TAX_General_ITR_Document_Checklist.pdf",
   },
   {
-    icon: <FaReceipt size={40} className="text-success" />,
-    title: "GST Registration Checklist",
-    description:
-      "Prepare the essential documents required for GST registration.",
-  },
+  icon: <FaReceipt size={40} className="text-success" />,
+  title: "GST Registration Checklist",
+  description:
+    "Prepare the essential documents required for GST registration.",
+  pdf: "/downloads/GI-TAX_GST_Registration_Document_Checklist.pdf",
+},
   {
     icon: <FaBuilding size={40} className="text-success" />,
     title: "Company Registration Checklist",
