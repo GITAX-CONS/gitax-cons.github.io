@@ -105,7 +105,7 @@ function Footer() {
 
         <div className="text-center">
 
-          © 2026 GI-TAX Tax Consultants
+         © {new Date().getFullYear()} GI-TAX Tax Consultants. All rights reserved.
 
         </div>
 
