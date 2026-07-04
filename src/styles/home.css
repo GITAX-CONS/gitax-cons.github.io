@@ -166,7 +166,7 @@ html {
 }
 @media (max-width: 768px) {
   .navbar-brand img {
-    height: 70px !important;
+    height: 65px !important;
   }
 
   .hero h1 {
@@ -216,5 +216,23 @@ body {
 
   .hero p {
     font-size: 17px !important;
+  }
+}
+@media (min-width: 769px) {
+  .navbar-brand img {
+    height: 120px !important;
+    max-width: none;
+  }
+}
+.navbar-logo {
+  width: 260px !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 180px !important;
+    height: auto !important;
   }
 }

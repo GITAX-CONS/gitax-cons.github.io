@@ -8,9 +8,8 @@ function Navbar() {
         <a className="navbar-brand d-flex align-items-center" href="#home">
           <img
             src={logo}
-            alt="GI-TAX"
-            height="90"
-            className="me-2"
+            alt="GI-TAX TAX CONSULTANTS"
+            className="navbar-logo"
           />
         </a>
 
