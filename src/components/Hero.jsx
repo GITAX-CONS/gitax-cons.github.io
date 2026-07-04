@@ -3,7 +3,7 @@ function Hero() {
     <section id="home"
       className="hero d-flex align-items-center"
       style={{
-        minHeight: "620px",
+        minHeight: "540px",
         background: "linear-gradient(135deg,#eef8f3,#ffffff)"
       }}
     >
