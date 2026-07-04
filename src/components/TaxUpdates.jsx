@@ -47,6 +47,22 @@ function TaxUpdates() {
             </div>
           ))}
         </div>
+
+        <div className="text-center mt-3">
+          <p className="text-muted small mb-3">
+            Tax laws, due dates and compliance requirements may change.
+            Contact GI-TAX for the latest information applicable to you.
+          </p>
+
+          <a
+            href="https://wa.me/919074018257?text=Hello%20GI-TAX%2C%20I%20would%20like%20to%20know%20the%20latest%20tax%20and%20compliance%20updates."
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-success"
+          >
+            Ask for Latest Updates
+          </a>
+        </div>
       </div>
     </section>
   );
