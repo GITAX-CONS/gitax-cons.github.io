@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaWhatsapp,
+  FaClock,
 } from "react-icons/fa";
 
 function Contact() {
@@ -85,6 +86,20 @@ ${formData.message}`;
                   <FaMapMarkerAlt className="text-success me-2" />
                   14th Mile, Melood P.O, Adoor
                 </p>
+                <hr />
+
+<h5 className="mt-4 mb-3">
+  <FaClock className="text-success me-2" />
+  Office Hours
+</h5>
+
+<p className="mb-2">
+  Monday – Saturday: 9:00 AM – 6:00 PM
+</p>
+
+<p className="mb-0">
+  Sunday: By Appointment
+</p>
               </div>
             </div>
           </div>
