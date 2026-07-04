@@ -4,8 +4,6 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaWhatsapp,
-  FaFacebook,
-  FaInstagram,
 } from "react-icons/fa";
 
 function Footer() {
@@ -97,14 +95,6 @@ function Footer() {
 >
   <FaWhatsapp size={30} />
 </a>
-
-              <FaFacebook
-                size={30}
-                className="me-3"
-              />
-
-              <FaInstagram size={30} />
-
             </div>
 
           </div>
