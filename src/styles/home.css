@@ -164,3 +164,57 @@ html {
 }
 
 }
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 70px !important;
+  }
+
+  .hero h1 {
+    font-size: 44px !important;
+    overflow-wrap: break-word;
+  }
+}
+/* Fix mobile horizontal overflow */
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .navbar-brand img {
+    height: 65px !important;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+  }
+
+  .hero {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0 !important;
+  }
+
+  .hero .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero h1 {
+    font-size: 42px !important;
+    line-height: 1.1 !important;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .hero p {
+    font-size: 17px !important;
+  }
+}

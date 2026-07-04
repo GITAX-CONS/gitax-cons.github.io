@@ -5,11 +5,11 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
       <div className="container">
 
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <a className="navbar-brand d-flex align-items-center" href="#home">
           <img
             src={logo}
             alt="GI-TAX"
-            height="70"
+            height="90"
             className="me-2"
           />
         </a>
