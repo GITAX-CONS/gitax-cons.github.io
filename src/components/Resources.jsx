@@ -49,11 +49,15 @@ function Resources() {
                 </p>
 
                 <a
-                  href="#contact"
-                  className="btn btn-outline-success mt-auto"
-                >
-                  Request Checklist
-                </a>
+  href={`https://wa.me/919074018257?text=${encodeURIComponent(
+    `Hello GI-TAX, please send me the ${resource.title}.`
+  )}`}
+  target="_blank"
+  rel="noreferrer"
+  className="btn btn-outline-success mt-auto"
+>
+  Request Checklist
+</a>
               </div>
             </div>
           ))}
